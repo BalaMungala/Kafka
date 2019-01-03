@@ -1,0 +1,21 @@
+Kafka :-
+
+topic:- A topic is a catagory or feed name to which records are publieshed.
+cousumer:- A consumer can be any application that subscribe to a topic and consume the massages.
+Broker:-kafka cluster is a set of servers, each of which is called a broker.
+while a zookeeper is used for managing, coordinating kafka broker. 
+each broker is coordinating with the other brokers using zookeeper
+producer and consumner are notified by zookeeper service abpout the presence of new broker in kafak systen or failure of the broker in the Kafka system
+
+Kafka versus Flume:-
+Types tool:- 
+
+Kafka :- For multiple producers and consumers, it is a general purpose tool
+Flume:- whereas , it is a special purpose tool for specific application.
+
+Replcation factor:-
+Kafka:- using ingest piplines, it replicates the events
+Flume:- it does not replicate events.
+
+init Limit :- is a timeouts Zookeeper usees to limit the length of the zookeeper servers in quorum have to connect to a leader
+sysnc Limit:- the entyr sync limit limts how far out of date a server cam be from the leader
